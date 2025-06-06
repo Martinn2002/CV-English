@@ -1,0 +1,86 @@
+*{
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1{
+    font-size: 64px !important;
+}
+h2{
+    font-size: 48px !important;
+}
+
+h3{
+    font-size: 36px !important;
+}
+
+h4{
+    font-size: 24px !important;
+}
+
+h5{
+    font-size: 18px !important;
+}
+
+h6{
+    font-size: 16px !important;
+}   
+
+p{
+    font-size: 16px !important;
+}
+
+.background{
+    background-image: url(../img/background.png);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-black{
+    background-image: url(../img/background-black.png);
+    color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row-header{
+    height: 90vh;
+}
+
+
+
+a{
+    color: white !important;
+}
+
+a:hover{
+    color: hsl(111, 68%, 53%) !important;
+}
+
+header, {
+    background-color: #0000008a;
+}
+
+h4, h3, p{
+      font-family: "Space Grotesk", sans-serif;
+      
+}
+
+h1, h2, h5, h6 {
+    color: hsl(111, 68%, 53%) !important;
+      font-family: "Space Grotesk", sans-serif;
+}
+
+.btn-primary {
+    background-color: hsl(111, 68%, 53%) !important;
+    border-color: hsl(111, 68%, 53%) !important;
+}
+
+.btn-primary:hover{
+        background-color: hsl(111, 60%, 36%) !important;
+        color: white !important;
+}
