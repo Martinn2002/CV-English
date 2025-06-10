@@ -85,3 +85,18 @@ h1, h2, h5, h6 {
         color: white !important;
 }
 
+.list-inline{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .list-inline {
+        display: block !important;
+    }
+    h2, h3{
+        margin-top: 20px !important;
+    }
+    .btn-primary:last-child, .btn-papeleria{
+        margin-bottom: 20px !important;
+    }
+}
